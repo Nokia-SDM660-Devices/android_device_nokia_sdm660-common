@@ -320,8 +320,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.nokia-libperfmgr \
-    vendor.qti.hardware.perf@2.0.vendor
+    android.hardware.power-service.nokia-libperfmgr
 
 # Protobuf
 PRODUCT_PACKAGES += \
