@@ -321,6 +321,9 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.nokia-libperfmgr
+    
+PRODUCT_PACKAGES += \
+    libqti-perfd-client    
 
 # Protobuf
 PRODUCT_PACKAGES += \
