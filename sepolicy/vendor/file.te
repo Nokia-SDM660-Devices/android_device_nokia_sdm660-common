@@ -18,5 +18,12 @@ type cutback_data_file, file_type, data_file_type;
 type cutback_socket, file_type;
 type audio_cutback_data_file, file_type, data_file_type;
 
+# Power
+type debugfs_sched_features, debugfs_type, fs_type;
+type debugfs_wlan, debugfs_type, fs_type;
+type sysfs_msm_subsys, sysfs_type, fs_type;
+type sysfs_rpm, sysfs_type, fs_type;
+type sysfs_system_sleep_stats, sysfs_type, fs_type;
+
 #rfs files
 type rfs_tombstone_data_file, data_file_type, file_type;
