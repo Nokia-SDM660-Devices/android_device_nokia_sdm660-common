@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
+    libspatialaudio \
     libqcomvoiceprocessing \
     libvolumelistener \
     tinymix.vendor \
@@ -399,7 +400,12 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH)
+    $(COMMON_PATH) \
+    hardware/samsung
+    
+# Spatial audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.spatializer_enabled=true
 
 # Telephony-ext
 PRODUCT_PACKAGES += \
