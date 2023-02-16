@@ -342,5 +342,9 @@
 
     <!-- AOSP WFD -->
     <bool name="config_enableWifiDisplay">true</bool>
-
+    
+    <!-- The default value for whether head tracking for
+         spatial audio is enabled for a newly connected audio device -->
+    <bool name="config_spatial_audio_head_tracking_enabled_default">true</bool>
+    
 </resources>
