@@ -393,7 +393,9 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
-    hardware/samsung
+    hardware/samsung \
+    hardware/google/interfaces \
+    hardware/google/pixel
 
 # Spatial Audio
 PRODUCT_PACKAGES += \
