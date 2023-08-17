@@ -19,6 +19,11 @@
             <fqname>@7.0::IEffectsFactory/default</fqname>
         </interface>
     </hal>
+        <hal format="hidl">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IDms/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
